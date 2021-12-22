@@ -1,0 +1,25 @@
+{
+	"name": "scraping",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Jose Albizures <albizures@vk.com> (https://albizures.com)",
+	"license": "MIT",
+	"scripts": {
+		"page": "node --loader ts-node/esm"
+	},
+	"dependencies": {
+		"axios": "^0.24.0",
+		"cheerio": "^1.0.0-rc.10",
+		"isomorphic-fetch": "^3.0.0",
+		"playwright": "^1.17.0",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.2"
+	},
+	"devDependencies": {
+		"@albizures/prettier-config": "^1.0.1",
+		"@types/axios": "^0.14.0",
+		"@types/isomorphic-fetch": "^0.0.35",
+		"@types/node": "^16.11.11",
+		"prettier": "^2.5.0"
+	}
+}

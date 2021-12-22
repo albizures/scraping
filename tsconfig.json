@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["esnext", "DOM"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"esModuleInterop": true
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"]
+}
